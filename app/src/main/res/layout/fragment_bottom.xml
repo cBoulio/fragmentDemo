@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/violator"
+    tools:context="com.boulio.fragmentdemo.bottomFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Top"
+        android:id="@+id/topEditText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bottom"
+        android:id="@+id/bottomEditText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"/>
+
+</RelativeLayout>

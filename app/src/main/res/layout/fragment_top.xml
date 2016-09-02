@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.boulio.fragmentdemo.topFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:id="@+id/topEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:id="@+id/bottomEditText"
+        android:layout_below="@+id/topEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Meme"
+        android:id="@+id/button"
+        android:layout_below="@+id/bottomEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    />
+</RelativeLayout>
